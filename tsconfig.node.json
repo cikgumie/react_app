@@ -18,7 +18,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Support JavaScript */
+    "allowJs": true
   },
-  "include": ["vite.config.js"]
+  "include": ["vite.config.js"], // atau ["vite.config.ts"] jika menggunakan TypeScript
+  "exclude": ["node_modules"]
 }
